@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="1ji5TfFiK6LghVPrKeln">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKXrXzJbyVwYyDU3e6YU-2" target="tKXrXzJbyVwYyDU3e6YU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-3" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-4" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="1">
+          <mxGeometry x="108.75" y="180" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-6" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-7" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="1">
+          <mxGeometry x="108.75" y="230" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-8" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKXrXzJbyVwYyDU3e6YU-10" target="tKXrXzJbyVwYyDU3e6YU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-10" value="&lt;div&gt;Indexing process&lt;/div&gt;&lt;div&gt;(batch job to fetch document and create TF-IDF)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-11" value="Binary file of the inverted index" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKXrXzJbyVwYyDU3e6YU-13" target="tKXrXzJbyVwYyDU3e6YU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-13" value="Query processing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="160" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKXrXzJbyVwYyDU3e6YU-15" target="tKXrXzJbyVwYyDU3e6YU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-15" value="Search Query&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-16" value="Search Results" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="350" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tKXrXzJbyVwYyDU3e6YU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tKXrXzJbyVwYyDU3e6YU-13" target="tKXrXzJbyVwYyDU3e6YU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
