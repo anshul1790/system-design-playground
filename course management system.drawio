@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="m7iHzihGbG0gObyQ4w-n">
-    <mxGraphModel dx="1811" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,9 +276,18 @@
         <mxCell id="3XhUzOHjpU7zTOnsgZtM-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3XhUzOHjpU7zTOnsgZtM-96" target="3XhUzOHjpU7zTOnsgZtM-101">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="290" />
+              <mxPoint x="300" y="300" />
               <mxPoint x="300" y="630" />
               <mxPoint x="-30" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XhUzOHjpU7zTOnsgZtM-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3XhUzOHjpU7zTOnsgZtM-96" target="3XhUzOHjpU7zTOnsgZtM-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="290" />
+              <mxPoint x="310" y="340" />
+              <mxPoint x="385" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -348,7 +357,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3XhUzOHjpU7zTOnsgZtM-127" value="Redirect users to authentication&lt;div&gt;&amp;nbsp;if the token is not valid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="400" width="190" height="40" as="geometry" />
+          <mxGeometry x="270" y="427" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3XhUzOHjpU7zTOnsgZtM-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.6;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3XhUzOHjpU7zTOnsgZtM-129" target="3XhUzOHjpU7zTOnsgZtM-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3XhUzOHjpU7zTOnsgZtM-129" value="Payment Management System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="355" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
