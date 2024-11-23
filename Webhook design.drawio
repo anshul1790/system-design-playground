@@ -84,6 +84,15 @@
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-89" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;strokeWidth=3;" vertex="1" parent="tDgu_Xf9yMOV2VJoMn5k-87">
           <mxGeometry width="90" height="22.5" as="geometry" />
         </mxCell>
+        <mxCell id="tDgu_Xf9yMOV2VJoMn5k-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tDgu_Xf9yMOV2VJoMn5k-100" target="tDgu_Xf9yMOV2VJoMn5k-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="630" />
+              <mxPoint x="1180" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-100" value="Webhook worker for each client event with internal Kafka based retries" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="321" width="160" height="150" as="geometry" />
         </mxCell>
@@ -93,8 +102,11 @@
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-113" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Events queued for each client&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Topic per event and client&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="135" y="431" width="180" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="tDgu_Xf9yMOV2VJoMn5k-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDgu_Xf9yMOV2VJoMn5k-119" target="tDgu_Xf9yMOV2VJoMn5k-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-119" value="Cron Jobs for failed messages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="433" y="524" width="207" height="60" as="geometry" />
+          <mxGeometry x="747" y="366" width="207" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-122" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="291" y="-150" width="563" height="180" as="geometry" />
@@ -109,12 +121,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-128" value="Send failed messages to queue again" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="426.5" y="600" width="220" height="30" as="geometry" />
+          <mxGeometry x="746.5" y="431" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-131" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="50" as="sourcePoint" />
-            <mxPoint x="1090" y="50" as="targetPoint" />
+            <mxPoint x="980" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tDgu_Xf9yMOV2VJoMn5k-58" target="tDgu_Xf9yMOV2VJoMn5k-116">
@@ -137,7 +149,7 @@
         </mxCell>
         <mxCell id="tDgu_Xf9yMOV2VJoMn5k-147" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="670" as="sourcePoint" />
+            <mxPoint x="980" y="680" as="sourcePoint" />
             <mxPoint x="980" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
