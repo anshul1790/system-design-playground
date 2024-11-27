@@ -471,12 +471,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Lz-GEdfYNuaGSysCafix" name="Page-2">
-    <mxGraphModel dx="2341" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1830" dy="2130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-40" y="157.5" width="160" height="80" as="geometry" />
+          <mxGeometry x="83" y="-110" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3TAfvG3P3DrYB_7pLBc2-1">
           <mxGeometry width="160" height="80" as="geometry" />
@@ -503,7 +503,7 @@
           <mxGeometry x="60" y="15" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;After a successful upload of video&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;a notification&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&amp;nbsp;will be queued for transcoder to process the video&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="330" width="340" height="50" as="geometry" />
+          <mxGeometry x="300" y="257" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-19" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="792" y="17" width="400" height="240" as="geometry" />
@@ -511,8 +511,8 @@
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-6" value="Temp Blob storage for keeping raw video files" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="3TAfvG3P3DrYB_7pLBc2-19">
           <mxGeometry y="120" width="110" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-12" value="&lt;pre class=&quot;!overflow-visible&quot;&gt;&lt;div class=&quot;contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;Videos can be stored in this structure in raw folder&lt;/code&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;s3://youtube/raw-videos&lt;/code&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;/{uploader-id}/{upload-date}&lt;/code&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;/{&lt;span class=&quot;hljs-selector-tag&quot;&gt;video&lt;/span&gt;-id}/{raw-filename}&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.25;" vertex="1" parent="3TAfvG3P3DrYB_7pLBc2-19">
-          <mxGeometry width="400" height="120" as="geometry" />
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-12" value="&lt;pre class=&quot;!overflow-visible&quot;&gt;&lt;div class=&quot;contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Videos can be stored in this structure in raw folder&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;s3://youtube/raw-videos&lt;/font&gt;&lt;/code&gt;&lt;span style=&quot;font-size: 11px; background-color: initial; font-family: Helvetica; white-space: normal;&quot;&gt;/{uploader-id}/{upload-date}&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;/{&lt;span class=&quot;hljs-selector-tag&quot;&gt;video&lt;/span&gt;-id}/{raw-filename}&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.43;" vertex="1" parent="3TAfvG3P3DrYB_7pLBc2-19">
+          <mxGeometry x="-52" y="33" width="342" height="101.5" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-27" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="375" y="450" width="210" height="300" as="geometry" />
@@ -529,6 +529,9 @@
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-26" value="Transcoder 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3TAfvG3P3DrYB_7pLBc2-27">
           <mxGeometry x="37.879999999999995" y="20" width="136.25" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-28" target="3TAfvG3P3DrYB_7pLBc2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-28" value="Blob storage for storing the transcoded chunks" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="97" y="500" width="130" height="180" as="geometry" />
         </mxCell>
@@ -536,10 +539,10 @@
           <mxGeometry x="755.1" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-37" value="CDN where the content is&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;published&lt;/span&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: initial;&quot;&gt;and gets available to the user&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: initial;&quot;&gt;for each encoding scheme is completed&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="12" y="920" width="300" height="70" as="geometry" />
+          <mxGeometry x="12" y="870" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-40" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="68.5" y="810" width="187" height="100" as="geometry" />
+          <mxGeometry x="68.5" y="760" width="187" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-42" value="" style="group" vertex="1" connectable="0" parent="3TAfvG3P3DrYB_7pLBc2-40">
           <mxGeometry width="187" height="100" as="geometry" />
@@ -571,19 +574,19 @@
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-51" value="" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.tunnel;" vertex="1" parent="3TAfvG3P3DrYB_7pLBc2-45">
           <mxGeometry x="14.270833333333343" y="169.99666666666667" width="71.4625" height="15.366666666666667" as="geometry" />
         </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-68" value="Transcoding completion&lt;div&gt;events&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3TAfvG3P3DrYB_7pLBc2-45">
+          <mxGeometry x="-25" y="195" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-52" target="3TAfvG3P3DrYB_7pLBc2-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-52" value="&lt;div&gt;Transcoding&lt;/div&gt;Completion handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="788" y="490" width="120" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-53" value="Auth service and User data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="384.5" y="40" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-21" target="3TAfvG3P3DrYB_7pLBc2-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-46" target="3TAfvG3P3DrYB_7pLBc2-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-4" target="3TAfvG3P3DrYB_7pLBc2-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-4" target="3TAfvG3P3DrYB_7pLBc2-6">
@@ -605,13 +608,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-75" value="Web server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="160" width="160" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-2" target="3TAfvG3P3DrYB_7pLBc2-75">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-68" value="Transcoding completion events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="602.55" y="730" width="190" height="30" as="geometry" />
+          <mxGeometry x="69" y="160" width="160" height="75" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-79" value="Metadata storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="798" y="290" width="100" height="160" as="geometry" />
@@ -630,8 +627,17 @@
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-21" target="3TAfvG3P3DrYB_7pLBc2-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-21" target="3TAfvG3P3DrYB_7pLBc2-30">
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.586;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-2" target="3TAfvG3P3DrYB_7pLBc2-75">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-88" value="Transcoder will fan out to create multiple resolutions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-89" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;To make the design simple, each transcoder will&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Transcode the video to different resolution&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. It will create chunks based on size/ seconds&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Store every chunk in S3&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. The status of chunk is sent to transcoder queue&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5. Transcoder completion handler updates metadata storage&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="755" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-91" value="Notifies user that video is updated succesfully" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="572.5" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
