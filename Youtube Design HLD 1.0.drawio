@@ -666,10 +666,10 @@
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-100" target="3TAfvG3P3DrYB_7pLBc2-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-100" value="Indexer service fetch the metadata of the video on batch basis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-100" value="Crawler service fetch the metadata of the video on batch basis and sen to elastic search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-302" y="550" width="182" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-106" value="Elastic Storage to keep the videos indexed using titles and return matched videos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-106" value="Elastic Search to keep the videos indexed using titles and return matched videos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-304" y="346" width="184" height="96" as="geometry" />
         </mxCell>
       </root>
