@@ -4,8 +4,47 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-0SipbzjG9Ck_jaLApKE-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="180" width="80" height="140" as="geometry" />
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="498" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-0SipbzjG9Ck_jaLApKE-6">
+          <mxGeometry width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="-0SipbzjG9Ck_jaLApKE-6">
+          <mxGeometry x="41" y="6" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-7" value="Client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="548" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-0SipbzjG9Ck_jaLApKE-8" target="-0SipbzjG9Ck_jaLApKE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-8" value="Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="680" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-0SipbzjG9Ck_jaLApKE-5" target="-0SipbzjG9Ck_jaLApKE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-12" value="Encoder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-0SipbzjG9Ck_jaLApKE-17" target="-0SipbzjG9Ck_jaLApKE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-17" value="Blob storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="665" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-0SipbzjG9Ck_jaLApKE-12" target="-0SipbzjG9Ck_jaLApKE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-0SipbzjG9Ck_jaLApKE-19" target="-0SipbzjG9Ck_jaLApKE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-19" value="CDN&lt;div&gt;cloud&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="483" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-0SipbzjG9Ck_jaLApKE-23" value="Data streaming back to client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="488" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
