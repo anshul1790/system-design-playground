@@ -607,6 +607,9 @@
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-75" target="3TAfvG3P3DrYB_7pLBc2-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-75" target="3TAfvG3P3DrYB_7pLBc2-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-75" value="Web server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="69" y="160" width="160" height="75" as="geometry" />
         </mxCell>
@@ -642,11 +645,32 @@
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-94" value="&lt;span style=&quot;background-color: initial;&quot;&gt;The CDN is &lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;notified asynchronously&lt;/strong&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(e.g., using pre-signed URLs or API calls) to fetch and cache the files.&lt;/span&gt;&lt;br&gt;&lt;li&gt;&lt;/li&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-120" y="700" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3TAfvG3P3DrYB_7pLBc2-95" value="Transcoded videos can be stored in S3&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s3://bucket-name/transcoded-videos/{video-id}/{resolution}/chunk-{index}.format&lt;/span&gt;&lt;li&gt;&lt;/li&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="1">
-          <mxGeometry x="-106" y="400" width="210" height="110" as="geometry" />
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-95" value="Transcoded videos can be stored in S3&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s3://bucket-name/transcoded-videos/{video-id}/{resolution}/chunk-{index}.format&lt;/span&gt;&lt;li&gt;&lt;/li&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.47;" vertex="1" parent="1">
+          <mxGeometry y="407" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3TAfvG3P3DrYB_7pLBc2-96" value="Clients" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="245" y="57" width="55" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-97" target="3TAfvG3P3DrYB_7pLBc2-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-97" value="Search Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-297" y="167" width="172" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-99" target="3TAfvG3P3DrYB_7pLBc2-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-99" value="Metadata storage of videos" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-261" y="715" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3TAfvG3P3DrYB_7pLBc2-100" target="3TAfvG3P3DrYB_7pLBc2-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-100" value="Indexer service fetch the metadata of the video on batch basis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-302" y="550" width="182" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3TAfvG3P3DrYB_7pLBc2-106" value="Elastic Storage to keep the videos indexed using titles and return matched videos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-304" y="346" width="184" height="96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
