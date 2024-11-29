@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="Page-1" id="B93huHKFLmvjR5-uFooQ">
-    <mxGraphModel dx="2474" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2657" dy="2130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="2bSct4u1edC2ie97E54d-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-25" target="2bSct4u1edC2ie97E54d-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2bSct4u1edC2ie97E54d-25" value="User front end webserver of BFF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="472" width="110" height="168" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-26" value="Web Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -85,8 +85,8 @@
         <mxCell id="2bSct4u1edC2ie97E54d-40" value="Elastic Search DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="560" y="722" width="80" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-41" value="This can help in fetching&lt;div&gt;the right content easily&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="525" y="845" width="150" height="40" as="geometry" />
+        <mxCell id="2bSct4u1edC2ie97E54d-41" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This can help in fetching&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;the right content easily for searches on text content&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="842" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-42" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="320" y="690" width="120" height="170" as="geometry" />
