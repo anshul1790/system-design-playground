@@ -10,8 +10,8 @@
         <mxCell id="2bSct4u1edC2ie97E54d-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-150" y="645" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Functional requirements V1&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;1. Ask a Question&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;2. Post answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;3. Vote Answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;4. Search Answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-127" y="-360" width="238" height="125" as="geometry" />
+        <mxCell id="2bSct4u1edC2ie97E54d-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Functional requirements V1&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;1. Ask a Question&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;2. Post answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;3. Vote Answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;4. Search Answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5. Generate recommendations&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;6. Rank the answers based on usefulness&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-152" y="-352" width="315" height="149" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-9" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="320" y="379" width="169" height="225" as="geometry" />
