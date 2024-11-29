@@ -124,7 +124,7 @@
           <mxGeometry x="520" y="921" width="18" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-139" value="Reccomend-&lt;div&gt;ation table&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="741" y="864" width="80" height="120" as="geometry" />
+          <mxGeometry x="746" y="864" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=37.5;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-4" target="2bSct4u1edC2ie97E54d-40">
           <mxGeometry relative="1" as="geometry">
@@ -171,7 +171,7 @@
         <mxCell id="2bSct4u1edC2ie97E54d-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.041;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-43" target="2bSct4u1edC2ie97E54d-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-162" value="Recommendation engine powered by ML algorithms.&lt;div&gt;This takes inputs from user preferences and interactions table&lt;/div&gt;&lt;div&gt;and update this table in batches&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2bSct4u1edC2ie97E54d-162" value="Recommendation engine powered by ML algorithms.&lt;div&gt;Input tables are Question and Answers and User Interactions&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="462" y="994" width="196" height="165" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-162" target="2bSct4u1edC2ie97E54d-139">
@@ -529,6 +529,17 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=84;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-162" target="2bSct4u1edC2ie97E54d-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="847" y="1077" />
+              <mxPoint x="847" y="796" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-220" value="Updates these tables in batches" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="672" y="1083" width="189" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
