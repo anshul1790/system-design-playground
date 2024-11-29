@@ -362,6 +362,12 @@
         <mxCell id="2bSct4u1edC2ie97E54d-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.041;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-43" target="2bSct4u1edC2ie97E54d-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-162" value="Recommendation engine powered by ML algorithms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="994" width="196" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-162" target="2bSct4u1edC2ie97E54d-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
