@@ -46,6 +46,9 @@
         <mxCell id="2bSct4u1edC2ie97E54d-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-25" target="2bSct4u1edC2ie97E54d-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-25" target="2bSct4u1edC2ie97E54d-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-25" value="User front end webserver of BFF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="27" y="591" width="110" height="168" as="geometry" />
         </mxCell>
@@ -81,29 +84,26 @@
         <mxCell id="2bSct4u1edC2ie97E54d-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;3. post/answer/vote&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;questionId&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;answerId&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;isUpVote&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;dateTime&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;4. post/search&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;searchString&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2bSct4u1edC2ie97E54d-37">
           <mxGeometry x="360" y="50" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-38" value="Queue data for indexing in elastic search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="607" y="640" width="139" height="35" as="geometry" />
+        <mxCell id="2bSct4u1edC2ie97E54d-40" value="Elastic Search DB storing user Indexes" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="749" y="562" width="80" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-40" value="Elastic Search DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="636.5" y="703" width="80" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-41" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This can help in fetching&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;the right content easily for searches on text content&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="729" y="728" width="290" height="40" as="geometry" />
+        <mxCell id="2bSct4u1edC2ie97E54d-41" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Add the questions to queue&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&amp;nbsp;and then to elastic search&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="833" y="604" width="164" height="41" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-42" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="320" y="690" width="175" height="226" as="geometry" />
+          <mxGeometry x="320" y="689" width="175" height="226" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-42">
           <mxGeometry width="175" height="226" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-44" value="Search Question" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-42">
-          <mxGeometry x="31.5" y="28" width="100" height="30" as="geometry" />
+          <mxGeometry x="31.5" y="30" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-109" value="View Question" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-42">
-          <mxGeometry x="31.5" y="90" width="100" height="30" as="geometry" />
+          <mxGeometry x="32.5" y="86" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-110" value="Create User Feed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-42">
-          <mxGeometry x="31.5" y="142" width="100" height="30" as="geometry" />
+          <mxGeometry x="35.5" y="142" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-47" value="QnA Querying/ Reads" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2bSct4u1edC2ie97E54d-42">
           <mxGeometry x="35" y="193" width="93" height="26" as="geometry" />
@@ -308,23 +308,59 @@
         <mxCell id="2bSct4u1edC2ie97E54d-103" value="&lt;div style=&quot;text-align: left; font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;    &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;mappings&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;        &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;properties&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;question_id&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;keyword&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;analyzer&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;standard&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;analyzer&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;standard&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;tags&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;keyword&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;author_id&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;keyword&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;created_at&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;updated_at&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;views&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;integer&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;            &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;vote_count&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;integer&quot;&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;        &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;    &lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1035" y="-130" width="340" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-118" value="User preferences&amp;nbsp; and interactions table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="636.5" y="841" width="80" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-38" target="2bSct4u1edC2ie97E54d-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-134" value="Update user preferences&lt;div&gt;and user interactions&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="314.99666666666644" y="1082" as="geometry" />
+          <mxGeometry x="691.9966666666664" y="693" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-135" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="921" width="18" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-136" value="&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For optimisation:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;also think of adding all user preferences&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;and user interactions to queue&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;and then process at scale&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
-          <mxGeometry x="716.5" y="823" width="230.5" height="107" as="geometry" />
+        <mxCell id="2bSct4u1edC2ie97E54d-139" value="Reccomend-&lt;div&gt;ation table&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="741" y="864" width="80" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-139" value="Reccomendation Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="636.5" y="987" width="80" height="120" as="geometry" />
+        <mxCell id="2bSct4u1edC2ie97E54d-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=37.5;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-4" target="2bSct4u1edC2ie97E54d-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="717" y="488" />
+              <mxPoint x="717" y="599" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="746" y="759" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="693" y="488" />
+              <mxPoint x="693" y="759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-40" target="2bSct4u1edC2ie97E54d-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559" y="622" />
+              <mxPoint x="559" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=86.25;exitPerimeter=0;entryX=0.991;entryY=0.445;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-15" target="2bSct4u1edC2ie97E54d-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="511" />
+              <mxPoint x="560" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-118" value="User preferences&amp;nbsp; and interactions table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="746" y="712" width="81" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-136" value="&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For optimisation:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;also think of adding all user preferences&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;and user interactions to queue&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;and then process at scale&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.09;" vertex="1" parent="1">
+          <mxGeometry x="839" y="693" width="230.5" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-139" target="2bSct4u1edC2ie97E54d-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.041;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-43" target="2bSct4u1edC2ie97E54d-118">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
