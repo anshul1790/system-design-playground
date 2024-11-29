@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="Page-1" id="B93huHKFLmvjR5-uFooQ">
-    <mxGraphModel>
+    <mxGraphModel dx="2474" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2bSct4u1edC2ie97E54d-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="520" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Functional requirements V1&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;1. Ask a Question&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;2. Post answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;3. Vote Answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;4. Search Answer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-290" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="471" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-9">
+          <mxGeometry width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-6" value="Post Question" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-9">
+          <mxGeometry x="10" y="20" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-7" value="Post Answer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-9">
+          <mxGeometry x="10" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-8" value="Votes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-9">
+          <mxGeometry x="10" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-15" value="Storing Questions and Answer data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="555" y="491" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-17" value="Stroring images and videos after compression" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-21" value="Stores the images and videos&lt;div&gt;in S3 for&amp;nbsp; particular question&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S3://bucket/images/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;datetime/questionid/imagefile&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-23" value="Application Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-25" target="2bSct4u1edC2ie97E54d-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="472" width="110" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-26" value="Web Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-25" target="2bSct4u1edC2ie97E54d-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=67.5;exitPerimeter=0;entryX=0.643;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-17" target="2bSct4u1edC2ie97E54d-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-31" value="Get the S3 URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-4" target="2bSct4u1edC2ie97E54d-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-190" y="-170" width="530" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-37">
+          <mxGeometry width="530" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;API Spec&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1. post/question -&amp;gt; generate question id&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium; background-color: initial;&quot;&gt;userID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium; background-color: initial;&quot;&gt;title&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;content (include text and images)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;topic&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;datetime&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;2. post/answer -&amp;gt; generate answerid&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;answer text&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;question ID&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;answerPostedBy&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;datetime&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2bSct4u1edC2ie97E54d-37">
+          <mxGeometry x="30" y="30" width="310" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;3. post/answer/vote&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;questionId&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;answerId&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;isUpVote&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;dateTime&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;4. post/search&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;searchString&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2bSct4u1edC2ie97E54d-37">
+          <mxGeometry x="360" y="50" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-38" value="Queue data for indexing in elastic search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="650" width="176" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-4" target="2bSct4u1edC2ie97E54d-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
