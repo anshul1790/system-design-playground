@@ -40,7 +40,7 @@
         <mxCell id="2bSct4u1edC2ie97E54d-21" value="Stores the images and videos&lt;div&gt;in S3 for&amp;nbsp; particular question&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S3://bucket/images/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;datetime/questionid/imagefile&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="280" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-23" value="QnA Publisher" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="2bSct4u1edC2ie97E54d-23" value="QnA Publisher/ Writes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="333" y="643" width="95" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-25" target="2bSct4u1edC2ie97E54d-4">
@@ -97,10 +97,10 @@
         <mxCell id="2bSct4u1edC2ie97E54d-109" value="View Question" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-42">
           <mxGeometry x="12" y="66" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-110" value="Get&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-42">
+        <mxCell id="2bSct4u1edC2ie97E54d-110" value="Create User Feed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2bSct4u1edC2ie97E54d-42">
           <mxGeometry x="12" y="111" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-47" value="QnA Querying" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="2bSct4u1edC2ie97E54d-47" value="QnA Querying/ Reads" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="335" y="867" width="93" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.006;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-25" target="2bSct4u1edC2ie97E54d-43">
@@ -325,6 +325,14 @@
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.006;exitY=0.583;exitDx=0;exitDy=0;entryX=0.981;entryY=0.584;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-4" target="2bSct4u1edC2ie97E54d-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-43" target="2bSct4u1edC2ie97E54d-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="469" y="733" />
+              <mxPoint x="469" y="556" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
