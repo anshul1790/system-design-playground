@@ -118,7 +118,7 @@
           <mxGeometry x="960" y="-175" width="340" height="230" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-134" value="Update user preferences&lt;div&gt;and user interactions&lt;/div&gt;&lt;div&gt;for ML model that stores&lt;/div&gt;&lt;div&gt;user level data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="691.9966666666664" y="705" as="geometry">
+          <mxGeometry x="671.9966666666664" y="773" as="geometry">
             <mxPoint x="-10" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
