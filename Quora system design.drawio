@@ -151,6 +151,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-118" target="2bSct4u1edC2ie97E54d-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-118" value="User preferences&amp;nbsp; and interactions table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="746" y="712" width="81" height="122" as="geometry" />
         </mxCell>
@@ -566,7 +569,10 @@
         <mxCell id="2bSct4u1edC2ie97E54d-236" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Cache for trends:&lt;br&gt;This cache is updated in realtime or batch mode&lt;div&gt;when a answer is updated for a question&lt;div&gt;using user interactions table on batch mode&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="980" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-235" target="2bSct4u1edC2ie97E54d-118">
+        <mxCell id="2bSct4u1edC2ie97E54d-242" value="Batch Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="960" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-242" target="2bSct4u1edC2ie97E54d-235">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
