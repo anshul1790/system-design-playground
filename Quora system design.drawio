@@ -168,7 +168,7 @@
         <mxCell id="2bSct4u1edC2ie97E54d-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.041;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-43" target="2bSct4u1edC2ie97E54d-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-162" value="Recommendation engine powered by ML algorithms.&lt;div&gt;Input tables are User preferences and User Interactions with Questions and Answers for updating recommendations table&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2bSct4u1edC2ie97E54d-162" value="Recommendation engine powered by ML algorithms.&lt;div&gt;Input tables are User Interactions and Questions / Answers tables for updating recommendations table&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="462" y="1109" width="196" height="165" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-162" target="2bSct4u1edC2ie97E54d-139">
@@ -562,14 +562,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-235" target="2bSct4u1edC2ie97E54d-43">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2bSct4u1edC2ie97E54d-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-235">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-235" value="Cache for hot topics" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="530" y="921" width="60" height="80" as="geometry" />
+          <mxGeometry x="450" y="940" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-236" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Cache for trends:&lt;br&gt;This cache is updated in realtime or batch mode&lt;div&gt;when a answer is updated for a question&lt;div&gt;using user interactions table on batch mode&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="430" y="980" width="280" height="90" as="geometry" />
+          <mxGeometry x="413.5" y="984" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-242" value="Batch Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="960" width="100" height="20" as="geometry" />
@@ -585,6 +587,20 @@
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-251" value="Fetch full question/ answers&lt;div&gt;&amp;nbsp;details from original DB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="520" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-252">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-252" value="Cache for ranked answers" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="960" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-256" value="This cache will have question ID,&lt;div&gt;comment ID, rank&lt;/div&gt;&lt;div&gt;When this is queried then it return results based&lt;/div&gt;&lt;div&gt;&amp;nbsp;on comments rank.&lt;/div&gt;&lt;div&gt;For ranking use SortedSet&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="182" y="1040" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2bSct4u1edC2ie97E54d-257" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;Example cache structure for top answers&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;!overflow-visible&quot;&gt;&lt;div class=&quot;contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-shell&quot;&gt;ZADD question:123:comments 95 commentId1&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-shell&quot;&gt;ZADD question:456:comments 80 commentId2&lt;/code&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-shell&quot;&gt;ZADD question:789:comments 99 commentId3&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="-395" width="300" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
