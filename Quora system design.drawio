@@ -52,8 +52,8 @@
         <mxCell id="2bSct4u1edC2ie97E54d-26" value="Web Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="764" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-31" value="Get the S3 URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="297.5" y="329" width="110" height="30" as="geometry" />
+        <mxCell id="2bSct4u1edC2ie97E54d-31" value="Get the S3 URL/ and&lt;div&gt;Appended in question content&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="199" y="292" width="177" height="41" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-4" target="2bSct4u1edC2ie97E54d-15">
           <mxGeometry relative="1" as="geometry" />
