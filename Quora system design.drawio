@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1" pages="2">
   <diagram name="Page-1" id="B93huHKFLmvjR5-uFooQ">
-    <mxGraphModel dx="3361" dy="2500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2657" dy="2130" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
           <mxGeometry x="746" y="425.16" width="83" height="125" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-17" value="Stroring images and videos after compression" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="350" y="201" width="121" height="149" as="geometry" />
+          <mxGeometry x="350" y="190" width="121" height="149" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-21" value="Stores the images and videos&lt;div&gt;in S3 for&amp;nbsp; particular question&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;S3://bucket/images/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;datetime/questionid/imagefile&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="476" y="235" width="180" height="70" as="geometry" />
@@ -52,19 +52,8 @@
         <mxCell id="2bSct4u1edC2ie97E54d-26" value="Web Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="764" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-25" target="2bSct4u1edC2ie97E54d-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2bSct4u1edC2ie97E54d-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=67.5;exitPerimeter=0;entryX=0.643;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-17" target="2bSct4u1edC2ie97E54d-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="295" />
-              <mxPoint x="98" y="295" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-31" value="Get the S3 URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="86" y="339" width="110" height="30" as="geometry" />
+          <mxGeometry x="297.5" y="329" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-4" target="2bSct4u1edC2ie97E54d-15">
           <mxGeometry relative="1" as="geometry" />
@@ -607,6 +596,18 @@
         </mxCell>
         <mxCell id="2bSct4u1edC2ie97E54d-259" value="Ranking service to update the cache.&lt;div&gt;Input data is comments, votings queue&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="252.5" y="1169" width="155" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="j85hXJhgLgPb3nFU8SxI-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-160" y="-50" width="540" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="j85hXJhgLgPb3nFU8SxI-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j85hXJhgLgPb3nFU8SxI-1">
+          <mxGeometry width="540" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="j85hXJhgLgPb3nFU8SxI-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;API Spec&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;1. post/create-user-feed&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="j85hXJhgLgPb3nFU8SxI-1">
+          <mxGeometry x="30" y="30" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j85hXJhgLgPb3nFU8SxI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.443;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2bSct4u1edC2ie97E54d-4" target="2bSct4u1edC2ie97E54d-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
