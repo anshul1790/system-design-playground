@@ -37,8 +37,15 @@
         <mxCell id="k8FyuY1UuAjyHY6vViVl-4" value="64 Bit Sequence Generator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="220" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="k8FyuY1UuAjyHY6vViVl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k8FyuY1UuAjyHY6vViVl-6" target="k8FyuY1UuAjyHY6vViVl-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="k8FyuY1UuAjyHY6vViVl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k8FyuY1UuAjyHY6vViVl-6" target="k8FyuY1UuAjyHY6vViVl-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="240" />
+              <mxPoint x="860" y="280" />
+              <mxPoint x="460" y="280" />
+              <mxPoint x="460" y="262" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="k8FyuY1UuAjyHY6vViVl-6" value="Base 58 Encoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="220" width="150" height="40" as="geometry" />
