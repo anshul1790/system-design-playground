@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="JH6jR7ql8HSNHvoyUlD2">
-    <mxGraphModel>
+    <mxGraphModel dx="1147" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Google maps design&lt;/h1&gt;&lt;p&gt;Four key components that will be used while designing the google maps&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-2" value="Search System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-3" value="This system will have a store&lt;div&gt;of locations,&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;where the location&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;can be searched&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;using the search term&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and top 10 locations are returned&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-4" value="key value store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-5" value="This can store the location&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;coordinates&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-6" value="A message bus - Kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-7" value="This will transmit the messages&lt;div&gt;&amp;nbsp;as user navigates from one location&lt;/div&gt;&lt;div&gt;to another location&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-8" value="A Graph like DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-9" value="This will store the road data in nodes&lt;div&gt;Example node 1 is connected to node 2 by road or by lake etc&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="350" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
