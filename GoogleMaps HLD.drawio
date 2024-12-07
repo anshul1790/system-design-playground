@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="965" width="170" height="235" as="geometry" />
+        </mxCell>
         <mxCell id="22U_aCn7L2nLVKlK2ei8-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Google maps design&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Four key components that will be used while designing the google maps&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="80" width="310" height="100" as="geometry" />
         </mxCell>
@@ -74,6 +77,23 @@
         </mxCell>
         <mxCell id="22U_aCn7L2nLVKlK2ei8-25" value="Send the user current location as&lt;div&gt;&amp;nbsp;user navigates towards destination&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="190" y="780" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-26" value="Client&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1050" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22U_aCn7L2nLVKlK2ei8-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="246" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-32" value="Location finder service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="990" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-33" value="Route finder service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1060" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-34" value="Navigator service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1129" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
