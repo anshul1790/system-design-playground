@@ -132,7 +132,7 @@
           <mxGeometry x="560" y="1265" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22U_aCn7L2nLVKlK2ei8-44" value="Graph DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1195" width="100" height="110" as="geometry" />
+          <mxGeometry x="780" y="1218" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="22U_aCn7L2nLVKlK2ei8-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.027;entryY=0.601;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22U_aCn7L2nLVKlK2ei8-43" target="22U_aCn7L2nLVKlK2ei8-44">
           <mxGeometry relative="1" as="geometry" />
