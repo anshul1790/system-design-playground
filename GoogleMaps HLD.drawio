@@ -63,6 +63,18 @@
         <mxCell id="22U_aCn7L2nLVKlK2ei8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22U_aCn7L2nLVKlK2ei8-10" target="22U_aCn7L2nLVKlK2ei8-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-22" value="1. Search the location&lt;div&gt;2. Get the navigation by&lt;/div&gt;&lt;div&gt;source and desitination&lt;/div&gt;&lt;div&gt;3. Start the navigation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="610" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-23" value="Get the location&lt;div&gt;and it&#39;s cordincations&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="713" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-24" value="Get the source&lt;div&gt;and destination Path&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-25" value="Send the user current location as&lt;div&gt;&amp;nbsp;user navigates towards destination&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="780" width="210" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
