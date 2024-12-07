@@ -131,7 +131,7 @@
         <mxCell id="22U_aCn7L2nLVKlK2ei8-43" value="Graph processing service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="1265" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="22U_aCn7L2nLVKlK2ei8-44" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-44" value="Graph DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="780" y="1195" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="22U_aCn7L2nLVKlK2ei8-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.027;entryY=0.601;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22U_aCn7L2nLVKlK2ei8-43" target="22U_aCn7L2nLVKlK2ei8-44">
@@ -142,6 +142,21 @@
         </mxCell>
         <mxCell id="22U_aCn7L2nLVKlK2ei8-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22U_aCn7L2nLVKlK2ei8-42" target="22U_aCn7L2nLVKlK2ei8-47">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-50" value="Graph DB updater" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1405" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22U_aCn7L2nLVKlK2ei8-50" target="22U_aCn7L2nLVKlK2ei8-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="22U_aCn7L2nLVKlK2ei8-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="1510" as="sourcePoint" />
+            <mxPoint x="530" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-54" value="Get data from external sources&lt;div&gt;and&lt;/div&gt;&lt;div&gt;update Graph DB with nodes and vertices&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1450" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
