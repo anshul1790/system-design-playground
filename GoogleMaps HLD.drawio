@@ -158,6 +158,15 @@
         <mxCell id="22U_aCn7L2nLVKlK2ei8-54" value="Get data from external sources&lt;div&gt;and&lt;/div&gt;&lt;div&gt;update Graph DB with nodes and vertices&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="820" y="1450" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22U_aCn7L2nLVKlK2ei8-56" target="22U_aCn7L2nLVKlK2ei8-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-56" value="Message Bus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1453" width="236.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="22U_aCn7L2nLVKlK2ei8-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.445;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22U_aCn7L2nLVKlK2ei8-34" target="22U_aCn7L2nLVKlK2ei8-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
