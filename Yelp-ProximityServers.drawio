@@ -69,8 +69,8 @@
         <mxCell id="4zn030xkglCXvCuH_TS3-22" value="Adding a new place" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="370" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4zn030xkglCXvCuH_TS3-25" value="The location coordinates added to the proximity servers&lt;div&gt;to send the locations in the given radius&lt;br&gt;&lt;div&gt;Proximity service can use its Graph database to find the nodes&lt;/div&gt;&lt;div&gt;near to given location cordinate&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="400" y="545" width="360" height="70" as="geometry" />
+        <mxCell id="4zn030xkglCXvCuH_TS3-25" value="The location coordinates added to the proximity servers&lt;div&gt;to send the locations in the given radius&lt;br&gt;&lt;div&gt;Proximity service can use a tree-like data structure to quickly&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;find the locations&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="560" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4zn030xkglCXvCuH_TS3-26" target="4zn030xkglCXvCuH_TS3-8">
           <mxGeometry relative="1" as="geometry" />
@@ -80,6 +80,11 @@
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-32" value="Get the location segments" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="188" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4zn030xkglCXvCuH_TS3-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=101.25;entryPerimeter=0;" edge="1" parent="1" target="4zn030xkglCXvCuH_TS3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="411" y="358" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
