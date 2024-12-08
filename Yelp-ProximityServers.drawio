@@ -25,6 +25,9 @@
         <mxCell id="4zn030xkglCXvCuH_TS3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4zn030xkglCXvCuH_TS3-3" target="4zn030xkglCXvCuH_TS3-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4zn030xkglCXvCuH_TS3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4zn030xkglCXvCuH_TS3-3" target="4zn030xkglCXvCuH_TS3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-3" value="Places database&lt;div&gt;that stores the location coordinates and name&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="570" y="265" width="100" height="130" as="geometry" />
         </mxCell>
@@ -79,6 +82,9 @@
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-22" value="Adding a new place" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="370" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4zn030xkglCXvCuH_TS3-25" value="The location coordinates added to the proximity servers&lt;div&gt;to send the locations in given radius&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
