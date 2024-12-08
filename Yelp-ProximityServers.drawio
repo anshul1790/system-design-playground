@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="W8KukjsAmlOA6JF4pjq3">
-    <mxGraphModel dx="1647" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,14 +10,8 @@
         <mxCell id="4zn030xkglCXvCuH_TS3-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="300" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4zn030xkglCXvCuH_TS3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4zn030xkglCXvCuH_TS3-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="121" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="340" y="160" />
-              <mxPoint x="340" y="160" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="4zn030xkglCXvCuH_TS3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4zn030xkglCXvCuH_TS3-2" target="4zn030xkglCXvCuH_TS3-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-2" value="Application Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="230" width="110" height="200" as="geometry" />
@@ -31,19 +25,11 @@
         <mxCell id="4zn030xkglCXvCuH_TS3-3" value="&lt;div&gt;Relational databases&lt;/div&gt;Places database/s&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stores the places location coordinates and Names information&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="570" y="257" width="120" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="4zn030xkglCXvCuH_TS3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4zn030xkglCXvCuH_TS3-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="370" y="230" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-8" value="&lt;div&gt;Location Finder Service&lt;/div&gt;Google Server to find the location and it&#39;s cordinates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="30" width="210" height="90" as="geometry" />
+          <mxGeometry x="250" y="-60" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4zn030xkglCXvCuH_TS3-11" value="Getting the location coordinates&lt;div&gt;and segment information&lt;/div&gt;&lt;div&gt;about the searched location&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="145" width="190" height="60" as="geometry" />
+        <mxCell id="4zn030xkglCXvCuH_TS3-11" value="Getting the location coordinates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="55" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-14" value="Proximity Finder Servers" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="510" width="120" height="80" as="geometry" />
@@ -85,6 +71,15 @@
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-25" value="The location coordinates added to the proximity servers&lt;div&gt;to send the locations in the given radius&lt;br&gt;&lt;div&gt;Proximity service can use its Graph database to find the nodes&lt;/div&gt;&lt;div&gt;near to given location cordinate&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="545" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4zn030xkglCXvCuH_TS3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4zn030xkglCXvCuH_TS3-26" target="4zn030xkglCXvCuH_TS3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4zn030xkglCXvCuH_TS3-26" value="Area Search Service that will fetch the segment information using the coordinates given and radius information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4zn030xkglCXvCuH_TS3-32" value="Get the location segments" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="188" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
