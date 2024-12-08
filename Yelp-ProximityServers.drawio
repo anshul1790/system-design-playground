@@ -25,7 +25,7 @@
         <mxCell id="4zn030xkglCXvCuH_TS3-3" value="&lt;div&gt;Relational databases&lt;/div&gt;Places database/s&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stores the places location coordinates and Names information&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="570" y="257" width="120" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="4zn030xkglCXvCuH_TS3-8" value="&lt;div&gt;Location Finder Service&lt;/div&gt;Google Server to find the location and it&#39;s cordinates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4zn030xkglCXvCuH_TS3-8" value="&lt;div&gt;&lt;b&gt;Location Finder Service&lt;/b&gt;&lt;/div&gt;Google Server to find the location and it&#39;s cordinates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="-60" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-11" value="Getting the location coordinates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-17" value="Get the location Segment to search&lt;div&gt;for location within that segment itself&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="450" width="220" height="40" as="geometry" />
+          <mxGeometry x="240" y="450" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-18" value="Search for location&lt;div&gt;using it&#39;s name&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="290" width="120" height="40" as="geometry" />
@@ -75,7 +75,7 @@
         <mxCell id="4zn030xkglCXvCuH_TS3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4zn030xkglCXvCuH_TS3-26" target="4zn030xkglCXvCuH_TS3-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4zn030xkglCXvCuH_TS3-26" value="Area Search Service that will fetch the segment information using the coordinates given and radius information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4zn030xkglCXvCuH_TS3-26" value="&lt;b&gt;Area Search Service&lt;/b&gt;&lt;div&gt;that will fetch the segment information using the coordinates given and radius information&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="110" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4zn030xkglCXvCuH_TS3-32" value="Get the location segments" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
