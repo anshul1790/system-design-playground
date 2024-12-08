@@ -83,8 +83,8 @@
         <mxCell id="4zn030xkglCXvCuH_TS3-22" value="Adding a new place" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="370" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4zn030xkglCXvCuH_TS3-25" value="The location coordinates added to the proximity servers&lt;div&gt;to send the locations in the given radius&lt;br&gt;&lt;div&gt;Proximity service can use its Graph database to find the&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="420" y="550" width="320" height="60" as="geometry" />
+        <mxCell id="4zn030xkglCXvCuH_TS3-25" value="The location coordinates added to the proximity servers&lt;div&gt;to send the locations in the given radius&lt;br&gt;&lt;div&gt;Proximity service can use its Graph database to find the nodes&lt;/div&gt;&lt;div&gt;near to given location cordinate&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="545" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
