@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="SsrnoutQnXabE9va70Cc">
-    <mxGraphModel dx="1207" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1274" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,6 +171,66 @@
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-102" target="bDXXekkd5-EwSkiZ4GkZ-100">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-109" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1140" as="sourcePoint" />
+            <mxPoint x="1700" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-110" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-111" target="bDXXekkd5-EwSkiZ4GkZ-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-111" value="Self Serve Platform&lt;div&gt;React based UI&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1240" width="112.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-112" target="bDXXekkd5-EwSkiZ4GkZ-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-112" target="bDXXekkd5-EwSkiZ4GkZ-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-112" value="GraphQL ECS Service for&lt;div&gt;managing the configs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="1280" width="207.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-113" target="bDXXekkd5-EwSkiZ4GkZ-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-113" value="Dynamo DB Store to store configs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1076.5" y="1450" width="199.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-110" target="bDXXekkd5-EwSkiZ4GkZ-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-112" target="bDXXekkd5-EwSkiZ4GkZ-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-119" value="Router Application&lt;div&gt;for event whitelisting&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1180" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-120" value="FMP for batch processing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1360" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.018;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-112" target="bDXXekkd5-EwSkiZ4GkZ-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-123" value="Config library&lt;div&gt;that interact with ECS service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-125" value="Config library&lt;div&gt;that interact with ECS service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1340" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-127" target="bDXXekkd5-EwSkiZ4GkZ-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-127" value="Gitlab webhooks for new event contracts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="823.25" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-129" value="This UI contains the source, destination and mapping details.&lt;div&gt;The combination of these would make a primary key&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="1190" width="350" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
