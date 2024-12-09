@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="SsrnoutQnXabE9va70Cc">
-    <mxGraphModel dx="1529" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,19 +128,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-86" value="S3 Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="781.5" y="655" width="100" height="115" as="geometry" />
+          <mxGeometry x="781.5" y="630" width="100" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-87" value="Redshift Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="782.5" y="800" width="100" height="115" as="geometry" />
+          <mxGeometry x="782.5" y="775" width="100" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-88" value="Data Lakehouse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="780" y="970" width="100" height="115" as="geometry" />
+          <mxGeometry x="780" y="945" width="100" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-89" value="FMP Platform running on Spring Batch.&lt;div&gt;Config Based platform that add the configs in the Dynamo DB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1022.5" y="710" width="110" height="315" as="geometry" />
+          <mxGeometry x="1022.5" y="685" width="110" height="315" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-86">
           <mxGeometry relative="1" as="geometry" />
@@ -158,6 +158,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=155;entryDy=32.5;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-47" target="bDXXekkd5-EwSkiZ4GkZ-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-100" target="bDXXekkd5-EwSkiZ4GkZ-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-100" value="Dynamo DB Config Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="797.5" width="185" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-102" value="Self Serve Platform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190.5" y="980" width="289.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-102" target="bDXXekkd5-EwSkiZ4GkZ-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
