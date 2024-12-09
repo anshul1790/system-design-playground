@@ -380,6 +380,18 @@
         <mxCell id="DUk2yuUOIAwIGT5eZhTg-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DUk2yuUOIAwIGT5eZhTg-51" target="DUk2yuUOIAwIGT5eZhTg-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DUk2yuUOIAwIGT5eZhTg-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="DUk2yuUOIAwIGT5eZhTg-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="863" y="948" as="sourcePoint" />
+            <mxPoint x="1026" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUk2yuUOIAwIGT5eZhTg-61" value="Search Ops" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="853" y="915" width="81" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DUk2yuUOIAwIGT5eZhTg-62" value="Add Segment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="632" width="91" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
