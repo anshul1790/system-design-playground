@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="SsrnoutQnXabE9va70Cc">
-    <mxGraphModel dx="1434" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1529" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,13 +44,13 @@
           <mxGeometry x="160" y="205" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-18" value="Raw events in S3 bucket in parquet format" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="10" width="135" height="90" as="geometry" />
+          <mxGeometry x="1057.5" y="-89" width="135" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-19" target="bDXXekkd5-EwSkiZ4GkZ-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-19" value="Kinesis Firehose/ ETL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="31" width="170" height="50" as="geometry" />
+          <mxGeometry x="817.5" y="-68" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.025;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-19" target="bDXXekkd5-EwSkiZ4GkZ-7">
           <mxGeometry relative="1" as="geometry" />
@@ -58,25 +58,13 @@
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-2" target="bDXXekkd5-EwSkiZ4GkZ-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-47" target="bDXXekkd5-EwSkiZ4GkZ-48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-47" value="Multiple Apache Flink / KDA applications/ Consume KCL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="150" width="160" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-48" value="Other Systems.." style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="210" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-51" value="Adobe System" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="140" width="155" height="45" as="geometry" />
+          <mxGeometry x="997.5" y="161" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-53" value="MSK Kafka Cluster for more realtime uses cases" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="525" y="300" width="125" height="230" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.703;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-47" target="bDXXekkd5-EwSkiZ4GkZ-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-47" target="bDXXekkd5-EwSkiZ4GkZ-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -116,7 +104,7 @@
           <mxGeometry x="1245" y="450" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-75" value="Other data sources for data enrichements" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1102.5" y="570" width="137.5" height="85" as="geometry" />
+          <mxGeometry x="1217.5" y="640" width="137.5" height="85" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.553;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-70" target="bDXXekkd5-EwSkiZ4GkZ-65">
           <mxGeometry relative="1" as="geometry" />
@@ -140,19 +128,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-86" value="S3 Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="540" y="585" width="100" height="115" as="geometry" />
+          <mxGeometry x="781.5" y="655" width="100" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-87" value="Redshift Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="540" y="730" width="100" height="115" as="geometry" />
+          <mxGeometry x="782.5" y="800" width="100" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-88" value="Data Lakehouse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="537.5" y="900" width="100" height="115" as="geometry" />
+          <mxGeometry x="780" y="970" width="100" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-89" value="FMP Platform running on Spring Batch.&lt;div&gt;Config Based platform that add the configs in the Dynamo DB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="640" width="110" height="315" as="geometry" />
+          <mxGeometry x="1022.5" y="710" width="110" height="315" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-86">
           <mxGeometry relative="1" as="geometry" />
@@ -161,6 +149,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-94" value="Batch Jobs and also helped&lt;div&gt;&amp;nbsp;in backfilling the data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="965" y="563" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=67.5;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-47" target="bDXXekkd5-EwSkiZ4GkZ-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=155;entryDy=32.5;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-47" target="bDXXekkd5-EwSkiZ4GkZ-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
