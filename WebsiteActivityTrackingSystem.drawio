@@ -88,8 +88,11 @@
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-60" target="bDXXekkd5-EwSkiZ4GkZ-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-70" target="bDXXekkd5-EwSkiZ4GkZ-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="281" width="120" height="250" as="geometry" />
+          <mxGeometry x="1240" y="282" width="120" height="250" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-71" value="Vendor Application 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1245" y="309" width="110" height="40" as="geometry" />
@@ -104,7 +107,7 @@
           <mxGeometry x="1245" y="450" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-75" value="Other data sources for data enrichements" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1217.5" y="640" width="137.5" height="85" as="geometry" />
+          <mxGeometry x="1203.75" y="600" width="192.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.553;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-70" target="bDXXekkd5-EwSkiZ4GkZ-65">
           <mxGeometry relative="1" as="geometry" />
@@ -122,9 +125,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-73" target="bDXXekkd5-EwSkiZ4GkZ-80">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.562;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-70" target="bDXXekkd5-EwSkiZ4GkZ-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-86" value="S3 Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -167,7 +167,7 @@
           <mxGeometry x="1230" y="797.5" width="185" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-102" value="Self Serve Platform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1190.5" y="980" width="289.5" height="90" as="geometry" />
+          <mxGeometry x="1190.5" y="1010" width="289.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-102" target="bDXXekkd5-EwSkiZ4GkZ-100">
           <mxGeometry relative="1" as="geometry" />
