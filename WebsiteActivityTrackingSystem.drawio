@@ -139,6 +139,30 @@
         <mxCell id="bDXXekkd5-EwSkiZ4GkZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.562;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-70" target="bDXXekkd5-EwSkiZ4GkZ-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-86" value="S3 Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="585" width="100" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-87" value="Redshift Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="730" width="100" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-88" value="Data Lakehouse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="900" width="100" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-89" value="FMP Platform running on Spring Batch.&lt;div&gt;Config Based platform that add the configs in the Dynamo DB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="640" width="110" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.035;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bDXXekkd5-EwSkiZ4GkZ-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bDXXekkd5-EwSkiZ4GkZ-89" target="bDXXekkd5-EwSkiZ4GkZ-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
