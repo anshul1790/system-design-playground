@@ -218,7 +218,7 @@
           <mxGeometry x="330" y="290" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-69" value="Review Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="385" width="180" height="200" as="geometry" />
+          <mxGeometry x="520" y="385" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-70" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-69">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -299,7 +299,65 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-88" value="The choice could be a NoSQL database&lt;div&gt;as the size of this table can grow immensely&lt;/div&gt;&lt;div&gt;given there could be thousands of reviews per product.&amp;nbsp;&lt;/div&gt;&lt;div&gt;And keeping it unstructured can open us&lt;/div&gt;&lt;div&gt;&amp;nbsp;from adding more fields later if the user&lt;/div&gt;&lt;div&gt;add text/ image/ video feedback.&lt;/div&gt;&lt;div&gt;Also, the feedback or reviews need not to be strongly consistent&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="600" width="360" height="110" as="geometry" />
+          <mxGeometry x="480" y="590" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-89" value="Inventory Table for Sellers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-90" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-89">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-91" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-90">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-92" value="Inventory ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-90">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-93" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-89">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-94" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-93">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-95" value="ProductID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-93">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-96" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-89">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-97" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-96">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-98" value="Total Items" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-96">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-99" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-89">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-100" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-99">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-101" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-99">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-102" value="This can be a SQL database as this table needs&lt;div&gt;to reflect the correct Product and their availability count&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="550" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
