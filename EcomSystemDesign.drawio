@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="UcvBnbUMVVohwXtfm_5e">
-    <mxGraphModel dx="1919" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3159" dy="999" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,7 +228,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-52" value="There is a choice that either these tables can be SQL database /&lt;div&gt;NoSQL database for keeping all order and order details in denormalize way&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="290" width="420" height="40" as="geometry" />
+          <mxGeometry x="330" y="305" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-69" value="Review Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="535" y="390" width="180" height="200" as="geometry" />
@@ -483,6 +483,14 @@
         <mxCell id="orWkSwGe7-MlihIB3u7t-137" value="Search for the products" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="285" y="1022" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-381" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="orWkSwGe7-MlihIB3u7t-138" target="orWkSwGe7-MlihIB3u7t-255">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1121" y="1081" />
+              <mxPoint x="1121" y="1759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-138" value="Addition of the Product Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="1027.5" width="140" height="65" as="geometry" />
         </mxCell>
@@ -631,7 +639,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-206" value="Elastic Search" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1086" y="390" width="272" height="228.76" as="geometry" />
+          <mxGeometry x="1175" y="390" width="272" height="228.76" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-207" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="orWkSwGe7-MlihIB3u7t-206">
           <mxGeometry y="30" width="272" height="30" as="geometry" />
@@ -974,19 +982,19 @@
           <mxGeometry x="1149" y="1041" width="130" height="38" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-332" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="1044" y="1328" width="986" height="352" as="geometry" />
+          <mxGeometry x="1205" y="1233" width="997" height="319" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-333" value="&lt;b&gt;Cart Request&lt;/b&gt;&lt;div&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;user_id&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;U1001&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;product_id&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;P12345&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;quantity&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="1336" width="190" height="90" as="geometry" />
+          <mxGeometry x="1281" y="1251" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-334" value="&lt;b&gt;Cart Response&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;cart_id&quot;: &quot;C5678&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;user_id&quot;: &quot;U1001&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&quot;items&quot;: [&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;product_id&quot;: &quot;P12345&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantity&quot;: 2,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;price_per_unit&quot;: 299.99,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;total_price&quot;: 599.98&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="1350" width="360" height="150" as="geometry" />
+          <mxGeometry x="1178" y="1370" width="360" height="150" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-335" value="&lt;b&gt;Checkout&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;user_id&quot;: &quot;U1001&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;cart_id&quot;: &quot;C5678&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;payment_method&quot;: &quot;CREDIT_CARD&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;shipping_address&quot;: {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;address_line1&quot;: &quot;123 Main St&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;city&quot;: &quot;San Francisco&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;state&quot;: &quot;CA&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;postal_code&quot;: &quot;94103&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;country&quot;: &quot;US&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="1350" width="260" height="200" as="geometry" />
+          <mxGeometry x="1512" y="1276" width="260" height="200" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-336" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Checkout Response&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;order_id&quot;: &quot;O98765&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;status&quot;: &quot;PENDING&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;total_amount&quot;: 599.98,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;created_at&quot;: &quot;2024-12-10T12:30:00Z&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;payment_status&quot;: &quot;AWAITING_CONFIRMATION&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &quot;shipping_address&quot;: {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;address_line1&quot;: &quot;123 Main St&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;city&quot;: &quot;San Francisco&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;state&quot;: &quot;CA&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;postal_code&quot;: &quot;94103&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;country&quot;: &quot;US&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="1335" width="350" height="258" as="geometry" />
+          <mxGeometry x="1807" y="1247" width="350" height="258" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-337" value="Cart Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="735.5" y="110" width="180" height="200" as="geometry" />
@@ -1154,6 +1162,9 @@
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-380" value="Once the order is out from warehouse&lt;div&gt;then update the inventory table&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="1833" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-383" value="This can be batch based and event based job to update the cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="862" y="1122.5" width="369" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
