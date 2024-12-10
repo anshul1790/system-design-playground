@@ -508,9 +508,6 @@
         <mxCell id="orWkSwGe7-MlihIB3u7t-143" value="searchApi(userID,&lt;div&gt;search string, price range, ratings)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="966.5" width="200" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="orWkSwGe7-MlihIB3u7t-384" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="orWkSwGe7-MlihIB3u7t-145" target="orWkSwGe7-MlihIB3u7t-231">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-145" value="Recommendations Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="652.5" y="1247" width="125" height="80" as="geometry" />
         </mxCell>
