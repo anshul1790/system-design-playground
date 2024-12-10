@@ -810,7 +810,7 @@
           <mxGeometry x="115.5" y="1317" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-262" value="Order Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="1405" width="140" height="40" as="geometry" />
+          <mxGeometry x="115.5" y="1444" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-263" value="Ordering the products" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="118.5" y="1550" width="134" height="26" as="geometry" />
@@ -837,12 +837,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="orWkSwGe7-MlihIB3u7t-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="orWkSwGe7-MlihIB3u7t-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="267" y="1459.25" as="sourcePoint" />
+            <mxPoint x="270" y="1450" as="sourcePoint" />
             <mxPoint x="680" y="1788" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="267" y="1414" />
+              <mxPoint x="290" y="1450" />
+              <mxPoint x="290" y="1414" />
               <mxPoint x="476" y="1414" />
               <mxPoint x="476" y="1788" />
             </Array>
@@ -865,9 +866,6 @@
               <mxPoint x="830" y="1593" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="orWkSwGe7-MlihIB3u7t-278" value="Shippment Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="1484" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-279" value="updateInventory(productId)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="494.5" y="1788" width="162" height="26" as="geometry" />
@@ -1142,11 +1140,20 @@
         <mxCell id="orWkSwGe7-MlihIB3u7t-372" value="The order service uses the cart table&lt;div&gt;to get the order line items&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="1493" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="orWkSwGe7-MlihIB3u7t-373" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;placeOrder(userId, cartId,billing address,&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;payment details)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="87.5" y="1368.5" width="242.5" height="25" as="geometry" />
+        <mxCell id="orWkSwGe7-MlihIB3u7t-373" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;placeOrder(userId, cartId,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;billing address,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;payment details)&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="64.25" y="1390" width="242.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="orWkSwGe7-MlihIB3u7t-374" value="Using cart items to fetch the items, and update the order ID,&lt;div&gt;status in order table, and the line items in order details table&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="1576" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-377" value="Shipping Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="1610" width="172.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-379" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="orWkSwGe7-MlihIB3u7t-377" target="orWkSwGe7-MlihIB3u7t-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="orWkSwGe7-MlihIB3u7t-380" value="Once the order is out from warehouse&lt;div&gt;then update the inventory table&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1833" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
