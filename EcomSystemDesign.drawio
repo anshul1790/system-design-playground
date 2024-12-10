@@ -298,8 +298,8 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orWkSwGe7-MlihIB3u7t-88" value="The choice could be a NoSQL database&lt;div&gt;as the size of this table can grow immenly&lt;/div&gt;&lt;div&gt;given there could be thousands of reviews per product.&amp;nbsp;&lt;/div&gt;&lt;div&gt;And keeping it in unstructured can open us&lt;/div&gt;&lt;div&gt;&amp;nbsp;from adding more fields later if we user add text/ image/ / video feedback&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="590" width="410" height="90" as="geometry" />
+        <mxCell id="orWkSwGe7-MlihIB3u7t-88" value="The choice could be a NoSQL database&lt;div&gt;as the size of this table can grow immensely&lt;/div&gt;&lt;div&gt;given there could be thousands of reviews per product.&amp;nbsp;&lt;/div&gt;&lt;div&gt;And keeping it unstructured can open us&lt;/div&gt;&lt;div&gt;&amp;nbsp;from adding more fields later if the user&lt;/div&gt;&lt;div&gt;add text/ image/ video feedback.&lt;/div&gt;&lt;div&gt;Also, the feedback or reviews need not to be strongly consistent&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="600" width="360" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
