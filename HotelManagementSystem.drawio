@@ -51,10 +51,12 @@
         <mxCell id="UW23x5V6I6c93Vik2lZC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.982;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-38" target="UW23x5V6I6c93Vik2lZC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UW23x5V6I6c93Vik2lZC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-2" target="UW23x5V6I6c93Vik2lZC-37">
+        <mxCell id="UW23x5V6I6c93Vik2lZC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="UW23x5V6I6c93Vik2lZC-37">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="310" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="608" y="290" />
+              <mxPoint x="110" y="310" />
+              <mxPoint x="608" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -505,6 +507,24 @@
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-156" value="Callback event to your endpoint&lt;div&gt;once payment is succesful/ unsuccessful&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="265" y="810" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=82.5;exitPerimeter=0;entryX=1.023;entryY=0.29;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-3" target="UW23x5V6I6c93Vik2lZC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-166" value="View Hotel Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="178" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-167" target="UW23x5V6I6c93Vik2lZC-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-167" value="Blob Storage for hotels" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="573" y="-190" width="84" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.411;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-4" target="UW23x5V6I6c93Vik2lZC-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-169" value="Pushes images to CDN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411" y="-180" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
