@@ -67,7 +67,7 @@
           <mxGeometry x="414" y="250" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-46" value="Pushes the data about hotel statuses like price change&lt;div&gt;&amp;nbsp;/ new photos etc from hotel inventory to hotel catalogue service.&lt;/div&gt;&lt;div&gt;This service is decoupled via Kafka bus&lt;/div&gt;&lt;div&gt;and service that updates the hotel statuses&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" width="370" height="70" as="geometry" />
+          <mxGeometry x="620" y="10" width="370" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-47" value="Returns the recommended hotels" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="380" width="200" height="30" as="geometry" />
