@@ -79,7 +79,7 @@
           <mxGeometry x="170" y="354" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-52" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Archive the data which is 1-3 months older&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="418" width="244" height="41" as="geometry" />
+          <mxGeometry x="548" y="380" width="244" height="41" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-53" value="Hotel Inventory" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="-570" width="180" height="360" as="geometry" />
@@ -512,8 +512,8 @@
         <mxCell id="UW23x5V6I6c93Vik2lZC-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=82.5;exitPerimeter=0;entryX=1.023;entryY=0.29;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-3" target="UW23x5V6I6c93Vik2lZC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UW23x5V6I6c93Vik2lZC-166" value="View Hotel Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="178" width="120" height="30" as="geometry" />
+        <mxCell id="UW23x5V6I6c93Vik2lZC-166" value="view(hotelId)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="178" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-167" target="UW23x5V6I6c93Vik2lZC-169">
           <mxGeometry relative="1" as="geometry" />
