@@ -34,7 +34,7 @@
           <mxGeometry x="110" y="368" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="300" width="30" height="60" as="geometry" />
+          <mxGeometry x="-230" y="290" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-14" target="UW23x5V6I6c93Vik2lZC-24">
           <mxGeometry relative="1" as="geometry" />
@@ -56,6 +56,19 @@
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-31" value="return the information&amp;nbsp;&lt;div&gt;about selected hotel&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-3" target="UW23x5V6I6c93Vik2lZC-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-34" value="The hotels would be indexed as soon&lt;div&gt;as they are added to hotel catalogue&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="-5" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-35" value="Kafka Messaging bus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" y="35" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
