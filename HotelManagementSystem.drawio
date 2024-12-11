@@ -479,6 +479,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-153" value="Reservation services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="740" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-154" value="Querying Services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
