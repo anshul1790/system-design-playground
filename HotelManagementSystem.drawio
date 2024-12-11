@@ -39,8 +39,8 @@
         <mxCell id="UW23x5V6I6c93Vik2lZC-31" value="return the information&amp;nbsp;&lt;div&gt;about selected hotel&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="70" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UW23x5V6I6c93Vik2lZC-36" value="Kafka bus and Service to&lt;div&gt;&amp;nbsp;update the indexes on hotel&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="384" y="85" width="170" height="40" as="geometry" />
+        <mxCell id="UW23x5V6I6c93Vik2lZC-36" value="Kafka bus and Service to&lt;div&gt;&amp;nbsp;update the hotel data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="388" y="85" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-37" value="Hotel Interactions Service&lt;div&gt;(Cassandra)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="570" y="318" width="76" height="120" as="geometry" />
