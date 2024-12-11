@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="vm1UubGcQgJOCqlKM7Y3">
-    <mxGraphModel>
+    <mxGraphModel dx="2714" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UW23x5V6I6c93Vik2lZC-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="110" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-3" target="UW23x5V6I6c93Vik2lZC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-3" value="Hotel Catalogue&lt;div&gt;(MongoDB)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="76" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-4" value="Hotel Inventory&lt;div&gt;(SQL)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="390" width="76" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-6" value="search(userId, location,&lt;div&gt;filters)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="250" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-9" value="returns the hotel inventory status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-2" target="UW23x5V6I6c93Vik2lZC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="390" />
+              <mxPoint x="320" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-12" value="getHotelStatus(propertyID)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="368" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-14" target="UW23x5V6I6c93Vik2lZC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-14" value="Search Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-15" value="Listing Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-24" value="Hotel Finder Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="150" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-25" target="UW23x5V6I6c93Vik2lZC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-25" value="Distributed Search to fetch the hotels indexed on location, name of hotel, hotel criterias" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-20" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-31" value="return the information&amp;nbsp;&lt;div&gt;about selected hotel&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
