@@ -458,7 +458,7 @@
           <mxGeometry x="120" y="660" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-149" value="Once payment is completed mark the reservation status DONE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="620" width="360" height="30" as="geometry" />
+          <mxGeometry x="145" y="600" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-150" value="Mark the status of status to Pending when the payment is in progress" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="555" width="390" height="30" as="geometry" />
