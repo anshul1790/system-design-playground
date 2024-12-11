@@ -24,9 +24,6 @@
         <mxCell id="UW23x5V6I6c93Vik2lZC-12" value="getHotelStatus(propertyID)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="320" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UW23x5V6I6c93Vik2lZC-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="290" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="UW23x5V6I6c93Vik2lZC-14" value="Search Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="280" width="90" height="20" as="geometry" />
         </mxCell>
