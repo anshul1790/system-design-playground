@@ -485,6 +485,17 @@
         <mxCell id="UW23x5V6I6c93Vik2lZC-154" value="Querying Services" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-5" y="450" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.878;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-144" target="UW23x5V6I6c93Vik2lZC-135">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="810" />
+              <mxPoint x="300" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UW23x5V6I6c93Vik2lZC-156" value="Callback event to your endpoint&lt;div&gt;once payment is succesful/ unsuccessful&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="810" width="240" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
