@@ -264,7 +264,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UW23x5V6I6c93Vik2lZC-84" value="Hotel Images" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UW23x5V6I6c93Vik2lZC-82">
+        <mxCell id="UW23x5V6I6c93Vik2lZC-84" value="Hotel Images {JSONB}" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="UW23x5V6I6c93Vik2lZC-82">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -446,11 +446,12 @@
         <mxCell id="UW23x5V6I6c93Vik2lZC-138" value="Hotel Reservation DB&lt;div&gt;(MYSQL)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="564" y="546" width="76" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UW23x5V6I6c93Vik2lZC-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-138" target="UW23x5V6I6c93Vik2lZC-4">
+        <mxCell id="UW23x5V6I6c93Vik2lZC-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UW23x5V6I6c93Vik2lZC-138" target="UW23x5V6I6c93Vik2lZC-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="790" y="630" />
-              <mxPoint x="790" y="76" />
+              <mxPoint x="790" y="100" />
+              <mxPoint x="608" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
