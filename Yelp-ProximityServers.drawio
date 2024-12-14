@@ -328,17 +328,81 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pcx2NcBnCBpragozmhuf-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="660" width="140" height="205" as="geometry" />
+        <mxCell id="pcx2NcBnCBpragozmhuf-80" value="Place ID table/ Review tables" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="635" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pcx2NcBnCBpragozmhuf-71" value="Query Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="870" width="100" height="30" as="geometry" />
+        <mxCell id="pcx2NcBnCBpragozmhuf-81" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="910" width="140" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="pcx2NcBnCBpragozmhuf-72" value="search service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="700" width="120" height="30" as="geometry" />
+        <mxCell id="pcx2NcBnCBpragozmhuf-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pcx2NcBnCBpragozmhuf-81">
+          <mxGeometry width="140" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="pcx2NcBnCBpragozmhuf-73" value="list popular hotels / hotel recommendation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="770" width="120" height="50" as="geometry" />
+        <mxCell id="pcx2NcBnCBpragozmhuf-71" value="Query Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pcx2NcBnCBpragozmhuf-81">
+          <mxGeometry x="20" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-72" value="search service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pcx2NcBnCBpragozmhuf-81">
+          <mxGeometry x="10" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-73" value="list popular hotels / hotel recommendation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pcx2NcBnCBpragozmhuf-81">
+          <mxGeometry x="10" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-74" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="640" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-75" value="write servers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="710" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-85" value="Segmenter service/ Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="640" width="110" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcx2NcBnCBpragozmhuf-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-86" value="Third Party Geo spatial data providers" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="630" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.034;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pcx2NcBnCBpragozmhuf-80" target="pcx2NcBnCBpragozmhuf-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pcx2NcBnCBpragozmhuf-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="837" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-92" value="Key/ Value store of Segment IDs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="745" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pcx2NcBnCBpragozmhuf-85" target="pcx2NcBnCBpragozmhuf-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-94" value="fetches the&lt;div&gt;geo spatial date&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="685" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-95" value="get the places&lt;div&gt;information&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-96" value="Store the information&lt;div&gt;in key&lt;div&gt;value data&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="765" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pcx2NcBnCBpragozmhuf-74" target="pcx2NcBnCBpragozmhuf-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-98" value="Write the place ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="655" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-104" value="Quad tree servers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="940" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.027;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pcx2NcBnCBpragozmhuf-70" target="pcx2NcBnCBpragozmhuf-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.016;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pcx2NcBnCBpragozmhuf-104" target="pcx2NcBnCBpragozmhuf-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcx2NcBnCBpragozmhuf-113" value="The segment service fetches all the available data say using google maps api, that contain list of all restaurants, shops, point of interest etc.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Then this data is transformed and store in our inhouse key value database for faster access&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="990" y="765" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
