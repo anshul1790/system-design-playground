@@ -347,10 +347,10 @@
           <mxGeometry x="10" y="110" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pcx2NcBnCBpragozmhuf-74" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="640" width="140" height="200" as="geometry" />
+          <mxGeometry x="140" y="629" width="140" height="200" as="geometry" />
         </mxCell>
         <mxCell id="pcx2NcBnCBpragozmhuf-75" value="write servers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="710" width="120" height="30" as="geometry" />
+          <mxGeometry x="150" y="714" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pcx2NcBnCBpragozmhuf-85" value="Segmenter service/ Job" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="640" width="110" height="200" as="geometry" />
@@ -401,8 +401,8 @@
         <mxCell id="pcx2NcBnCBpragozmhuf-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.027;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pcx2NcBnCBpragozmhuf-70" target="pcx2NcBnCBpragozmhuf-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pcx2NcBnCBpragozmhuf-113" value="The segment service fetches all the available data using Google Maps api, which contains a list of all restaurants, shops, points of interest&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Then this data is transformed and enriched with more information like lat and long belongs which place, city country and nearby landmarks etc, that is not available in place id table.&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="990" y="765" width="330" height="120" as="geometry" />
+        <mxCell id="pcx2NcBnCBpragozmhuf-113" value="The segment service fetches all the available data using Google Maps API, which contains a list of POIs&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Then, this data is transformed and enriched with more information, such as lat and long, which place belongs to which place, city, country, nearby landmarks, etc., that is not available in the place ID table.&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=60;position=0.46;position2=0.41;" parent="1" vertex="1">
+          <mxGeometry x="990" y="765" width="410" height="185" as="geometry" />
         </mxCell>
         <mxCell id="pcx2NcBnCBpragozmhuf-117" value="Key Value store" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="100" width="180" height="90" as="geometry" />
